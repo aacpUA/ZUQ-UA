@@ -3,3 +3,49 @@
 .botaofundo{
 background-color:blue;
 }
+.no-border-outline{
+    border: hidden;
+}
+.no-border-outline:focus, search:focus{
+    outline: none;
+    background-color: #eef1f2;
+}
+.icon-search {
+    border-radius: 5px;
+    color: #e0e0e0;
+    background-color: #fafafa;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.search{
+    border-radius: 5px;
+    color: #e0e0e0;
+    background-color: #fafafa;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
+}
+.button_divfilters{
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Lato', sans-serif;
+    border-style: none;
+    margin-left: 10px;
+}
+.button_ok {
+    font-family: 'Lato', sans-serif;
+    background-color: #1f9baa;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
