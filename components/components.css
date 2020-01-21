@@ -1,7 +1,44 @@
 /* teste */
 
-.botaofundo{
-background-color:blue;
+.lato { /* chamar o tipo de letra */
+    font-family: lato;
+}
+
+.h5footer {
+    font-size: 12px;
+    color: white;
+}
+
+.pfooter {
+    font-size: 12px;
+    color: white;
+
+}
+
+.margemresultados{
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.fundofooter{
+background-color:#c4c4c4;
+}
+
+.cantos{
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.textoresultado {
+    margin: 10px;
+    background-color: transparent;
+}
+
+.tamanhocartao{
+    width: 100px;
+    height: 100px;
 }
 .no-border-outline{
     border: hidden;
