@@ -38,16 +38,59 @@ background-color:#c4c4c4;
     font-family: "Lato ";
 }
 
+.navbar-scroll{
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: space-between;
+    width: 100vw;
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .navbar-scroll .navbar-nav {
+        flex-direction: row !important;
+    }
+}
+
+
+.navbar-scroll ul {
+    margin: auto;
+    overflow-x: scroll;
+}
+
+
+
 .menuscroll {
     color: #000000 !important;
     font-family: "Lato";
     background-color: #ffffff;
 }
 
+.menuscroll .nav-item{
+    padding: 0 45px;
+}
+
+.menuscroll a{
+    color: black;
+}
+
 
 .margemmenu {
     margin-top: auto;
 
+}
+
+.zuq-navbar-icon {
+    background-image: url("../logozuq.jpg");
 }
 
 /* botões */
