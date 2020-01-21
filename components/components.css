@@ -4,5 +4,44 @@
 background-color:blue;
 }
 
+/* header */
+
+.navbar {
+    color: #FFFFFF;
+    background-color: #b9181c;
+    font-family: "Lato ";
+}
+
+.menuscroll {
+    color: #000000 !important;
+    font-family: "Lato";
+    background-color: #ffffff;
+}
+
+
+.margemmenu {
+    margin-top: auto;
+
+}
+
+/* botões */
+
+.botaodemais {
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+/*icons*/
+
+.material-icons {
+    text-align: right;
+}
+
+
 
 
