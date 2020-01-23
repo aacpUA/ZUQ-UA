@@ -187,6 +187,7 @@ background-color:#c4c4c4;
   position: fixed;
   height: 100%;
   font-family: Lato;
+    display: block;
 
 }
 
