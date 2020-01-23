@@ -1,7 +1,7 @@
 /* teste */
 
 .lato { /* chamar o tipo de letra */
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 
 .h5footer {
@@ -14,7 +14,6 @@
     color: white;
 
 }
-
 .margemresultados{
     margin-top: -20px;
     margin-bottom: -10px;
@@ -35,7 +34,7 @@ background-color:#c4c4c4;
 .navbar {
     color: #FFFFFF;
     background-color: #b9181c;
-    font-family: "Lato ";
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar-scroll{
@@ -71,7 +70,7 @@ background-color:#c4c4c4;
 
 .menuscroll {
     color: #000000 !important;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     background-color: #ffffff;
 }
 
@@ -167,4 +166,36 @@ background-color:#c4c4c4;
     text-align: center;
     font-size: 12px;
     line-height: 1.42857;
+}
+.textodestaques {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .homeperfil {
+        padding-top: 190px;
+        padding-bottom: 190px;
+    }
+}
+    @media (max-width:575.98px){
+        .homeperfil {
+            padding-top: 21px;
+            padding-bottom: 21px;
+        }
+.card-destaque {
+    position: center;
+}
+@media (min-width: 992px) {
+            .homedestaques {
+                padding-top: 150px;
+                padding-bottom: 150px;
+            }
+        }
+@media (max-width:575.98px) {
+    .homedestaques {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
 }
