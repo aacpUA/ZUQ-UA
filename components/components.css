@@ -175,27 +175,7 @@ background-color:#c4c4c4;
 
 
 
-/* Filtros
-
-@function rem($value) {
-    @return unquote(($value/1px)/16+"rem");
-}
-
-@media (max-width:992px) {
-    .mobileMenu{
-        position:fixed;
-         top:0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        transform: translateX(-100%);
-        transition: all ease 0.25s;
-        &.open{
-    transform: translateX(0);
-         }
-
-    }
-} */
+/* Filtros */
 
 
 /* The side navigation menu */
@@ -206,8 +186,8 @@ background-color:#c4c4c4;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
-  overflow: auto;
   font-family: Lato;
+
 }
 
 /* Sidebar links */
@@ -216,18 +196,22 @@ background-color:#c4c4c4;
   color: black;
   padding: 16px;
   text-decoration: none;
+    font-family: Lato;
 }
 
 /* Active/current link */
 .sidebar a.active {
   color: black;
+    font-family: Lato;
 }
 
-/* Links on mouse-over
+/* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}  */
+
+  color: black;
+    font-weight: bold;
+    font-family: Lato;
+}
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
@@ -254,3 +238,40 @@ div.content {
     float: none;
   }
 }
+
+/*filtro selecionado*/
+.filtroselecionado {
+    color: black;
+    font-weight: bold;
+    font-family: Lato;
+}
+
+.linhafiltroazul {
+    color: #42b0b7;
+    width: 5vw;
+}
+
+.iconfiltroazul{
+    color: #42b0b7;
+}
+
+/* botão ok */
+
+.btn-circle {
+    width: 3vw;
+    height: 3vw;
+    padding: 6px 0px;
+    border-radius: 100%;
+    align-content: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: #42b0b7;
+    margin-left: 300px;
+    color: white;
+
+}
+
+
+
+
+
