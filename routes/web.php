@@ -14,7 +14,11 @@
 /**
  * Unauthenticated Routes
  */
+
+
 Route::get('/', 'MainController@index')->name('index');
+
+Route::get('/main', 'MainController@highlights')->name('highlights');
 
 /**
  *  Auth & Registration
