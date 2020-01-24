@@ -34,7 +34,7 @@ background-color:#c4c4c4;
 
 .navbar {
     color: #FFFFFF;
-    background-color: #b9181c;
+    background-color: #e62738;
     font-family: "Lato ";
 }
 
@@ -273,6 +273,22 @@ div.content {
 }
 
 
+ /* Menus Gerais */
 
 
 
+.btn {
+    align-content: center;
+    align-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+    width: 250px;
+    display: inline;
+    font-family: Lato;
+
+}
