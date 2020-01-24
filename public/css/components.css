@@ -53,19 +53,23 @@ background-color:#c4c4c4;
 
 }
 
+.navbar-scroll ul {
+    margin: auto;
+}
+
 
 @media screen and (max-width: 991px) {
 
     .navbar-scroll .navbar-nav {
         flex-direction: row !important;
+
+    };
+
+    .navbar-scroll ul {
+        overflow-x: scroll;
     }
 }
 
-
-.navbar-scroll ul {
-    margin: auto;
-    overflow-x: scroll;
-}
 
 
 
