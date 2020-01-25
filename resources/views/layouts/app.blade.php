@@ -92,7 +92,7 @@
 
                         <!-- Grid column -->
                         <div class="col-md-2 mx-auto">
-                           <a href="https://www.publico.pt/" target="_blank"> <img src="imgs/p-logo-original-01.svg" alt="logo publico" height="100" width="100"></a>
+                           <a href="https://www.publico.pt/" target="_blank"> <img src="/images/p-logo-original-01.svg" alt="logo publico" height="100" width="100"></a>
 
                         </div>
                         <!-- Grid column -->
@@ -157,23 +157,23 @@
                 <ul class="list-unstyled list-inline text-center">
                     <li class="list-inline-item">
                         <a class="btn-floating btn-fb mx-1">
-                            <i class="fab fa-facebook-f"> <img src="imgs/facebook-01.svg" alt="logo face" height="25px"> </i>
+                            <i class="fab fa-facebook-f"> <img src="/images/facebook-01.svg" alt="logo face" height="25px"> </i>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a class="btn-floating btn-dribbble mx-1">
-                            <i class="fab fa-dribbble">  <img src="imgs/instagram.svg" alt="logo insta" height="25px"> </i>
+                            <i class="fab fa-dribbble">  <img src="/images/instagram.svg" alt="logo insta" height="25px"> </i>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a class="btn-floating btn-tw mx-1">
-                            <i class="fab fa-twitter">  <img src="imgs/twitter.svg" alt="logo twitter" height="25px"></i>
+                            <i class="fab fa-twitter">  <img src="/images/twitter.svg" alt="logo twitter" height="25px"></i>
                         </a>
                     </li>
 
                     <li class="list-inline-item">
                         <a class="btn-floating btn-li mx-1">
-                            <i class="fab fa-linkedin-in">  <img src="imgs/linkedin.svg" alt="logo linkedin" height="25px"></i>
+                            <i class="fab fa-linkedin-in">  <img src="/images/linkedin.svg" alt="logo linkedin" height="25px"></i>
                         </a>
                     </li>
 
