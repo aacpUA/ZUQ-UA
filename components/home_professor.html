@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bem vindo a ZUQ</title>
+    <title>ZUQ</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
@@ -16,7 +16,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg" style="background-color: #b9181c; justify-content: space-between">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="home.html">
         <img src="../logozuq.png"  width="60vw" alt="Logo ZUQ">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,37 +26,63 @@
     <div class="navbar-header pull-right"  style="align-items: end" id="navbarSupportedContent">
 
         <i class="material-icons" style="font-size: 28px">search</i>
-        <a class="material-icons" href="login.html"> <i class="material-icons md-48" style="font-size: 28px">account_circle</i> </a>
+        <i class="material-icons md-48" style="font-size: 28px">account_circle</i>
+    </div>
+</nav>
+
+
+<!-- Scroll lateral -->
+
+<nav class="navbar navbar-expand-lg menuscroll">
+    <div class="navbar-scroll" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="home_professor.html">início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="explorar_geral.html">explorar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">notícias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">recursos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">oportunidades</a>
+            </li>
+        </ul>
     </div>
 </nav>
 <div>
     <hr class="margemmenu" color="black" style="width: auto">
 </div>
-<!-- conteúdo home escolha perfil -->
-<section class="homeperfil">
+
+<!-- conteúdo home destaques -->
+<section class="homedestaque">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
-                <a href="home_estudante.html" class="card-destaque border-0 shadow-lg">
-                    <img class="card-img img-fluid" src="imgs/perfil_estudante.png">
-                    <div class="d-flex text-center flex-column border-0 card-img-overlay">
-                        <p class="card-text textodestaques">ESTUDANTE</p>
+                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
+                    <img class="card-img img-fluid" src="imgs/destaque1.png">
+                    <div class="d-flex flex-column border-0 card-img-overlay  m-4">
+                        <p class="card-text destaqueprofessor">Estás a procura de exames nacionais de anos anteriores?</p>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
-                <a href="home_encarregado.html" class="card-destaque border-0 shadow-lg">
-                    <img class="card-img img-fluid" src="imgs/perfil_encarregado.png">
-                    <div class="d-flex text-wrap flex-column border-0 card-img-overlay">
-                        <p class="card-text textodestaques">ENCARREGADO DE EDUCAÇÃO</p>
+                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
+                    <img class="card-img img-fluid" src="imgs/destaque2.png">
+                    <div class="d-flex flex-column border-0 card-img-overlay m-3">
+                        <p class="card-text destaqueprofessor">Fique sabendo todas as datas importantes para o acesso ao ensino superior!</p>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
-                <a href="home_professor.html" class="card-destaque border-0 shadow-lg">
-                    <img class="card-img img-fluid" src="imgs/perfil_professor.png">
-                    <div class="d-flex text-center flex-column border-0 card-img-overlay">
-                        <p class="card-text textodestaques">PROFESSOR</p>
+                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
+                    <img class="card-img img-fluid" src="imgs/destaque3.png">
+                    <div class="d-flex flex-column border-0 card-img-overlay m-3">
+                        <p class="card-text destaqueprofessor">Saiba quais são as bolsas académicas disponíveis em Portugal!</p>
                     </div>
                 </a>
             </div>

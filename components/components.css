@@ -141,13 +141,8 @@ background-color:#c4c4c4;
 
 .navbar {
     color: #FFFFFF;
-<<<<<<< HEAD
-    background-color: #e62738;
-    font-family: "Lato ";
-=======
     background-color: #b9181c;
     font-family: 'Lato', sans-serif;
->>>>>>> 7ad7db43a06bb1478670ae34cc11e3b0c0366405
 }
 
 .navbar-scroll{
@@ -396,15 +391,11 @@ div.content {
     background-color: #42b0b7;
     margin-left: 300px;
     color: white;
-
 }
-
-
  /* Menus Gerais */
 
 
 
-<<<<<<< HEAD
 .btn {
     align-content: center;
     align-content: space-between;
@@ -420,12 +411,12 @@ div.content {
     font-family: Lato;
 
 }
-=======
 .textodestaques {
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 20px;
     text-align: center;
+    margin: 35px;
 }
 @media (min-width: 992px) {
     .homeperfil {
@@ -442,16 +433,69 @@ div.content {
     position: center;
 }
 @media (min-width: 992px) {
-            .homedestaques {
-                padding-top: 150px;
-                padding-bottom: 150px;
-            }
+        .homedestaque {
+            padding-top: 190px;
+            padding-bottom: 190px;
         }
+    }
 @media (max-width:575.98px) {
-    .homedestaques {
-        padding-top: 21px;
+    .homedestaque {
+        padding-top: 18px;
         padding-bottom: 21px;
     }
 }
+.destaqueestudante {
+    font-family: "Lato Semibold", sans-serif;
+    color: #1f9baa;
+    font-size: 20px;
+    text-align: center;
+}
+.destaqueestudante2 {
+    font-family: "Lato Semibold", sans-serif;
+    color: #1f9baa;
+    font-size: 20px;
+    text-align: center;
+    margin: 35px;
+}
+.destaqueencarregado {
+    font-family: "Lato Semibold", sans-serif;
+    color: #b792b0;
+    font-size: 20px;
+    text-align: center;
+}
+.destaqueencarregado2 {
+    font-family: "Lato Semibold", sans-serif;
+    color: #b792b0;
+    font-size: 20px;
+    text-align: center;
+    margin: 35px;
+}
+.destaqueprofessor {
+    font-family: "Lato Semibold", sans-serif;
+    color: #f29827;
+    font-size: 20px;
+    text-align: center;
+}
+.destaqueprofessor2 {
+    font-family: "Lato Semibold", sans-serif;
+    color: #f29827;
+    font-size: 20px;
+    text-align: center;
+    margin: 35px;
+}
+.titulos {
+    font-family: "Lato Semibold", sans-serif;
+    color: #b9181c;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 40px;
+}
+.text-geral {
+    font-family: "Lato Semibold", sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.homeperfil{
+}
     }
->>>>>>> 7ad7db43a06bb1478670ae34cc11e3b0c0366405
