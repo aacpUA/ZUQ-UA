@@ -424,15 +424,17 @@ div.content {
         padding-bottom: 190px;
     }
 }
-    @media (max-width:575.98px) {
-        .homeperfil {
-            padding-top: 21px;
-            padding-bottom: 21px;
-        }
+@media (max-width:575.98px) {
+    .homeperfil {
+        padding-top: 21px;
+        padding-bottom: 21px;
     }
+}
+
 .card-destaque {
     position: center;
 }
+
 @media (min-width: 992px) {
         .homedestaque {
             padding-top: 190px;
