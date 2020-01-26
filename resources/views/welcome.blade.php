@@ -33,20 +33,36 @@
             @endif --}}
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                <section class="homeperfil">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
+                                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
+                                    <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
+                                    <div class="d-flex text-center flex-column border-0 card-img-overlay">
+                                        <p class="card-text textodestaques">ESTUDANTE</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
+                                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
+                                    <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
+                                    <div class="d-flex text-center flex-column border-0 card-img-overlay">
+                                        <p class="card-text textodestaques">ENCARREGADO DE EDUCAÇÃO</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
+                                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
+                                    <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
+                                    <div class="d-flex text-center flex-column border-0 card-img-overlay">
+                                        <p class="card-text textodestaques">PROFESSOR</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </body>
