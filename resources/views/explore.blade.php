@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Explorar</title>
+        <title>Explorar - ZUQ</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -20,6 +20,68 @@
         <div class="flex-center position-ref full-height">
 
             <div class="content">
+                <div class="row">
+                    <div class="col-md-3 hidden-sm">
+                        <div class="sidebar">
+                            <!-- Search form
+                            <input class="form-control" type="text" placeholder="Search" aria-label="Search"> -->
+
+
+                        <br>
+
+                                <form class="form-inline my-2 my-lg-0">
+                                    <div class="d-flex align-items-center icon-search">
+                                        <i class="material-icons" style="font-size: 28px">search</i>
+                                        <input class="form-control no-border-outline mr-sm-2 search" type="search" placeholder="pesquisar" aria-label="Search">
+                                    </div>
+                                </form>
+
+                            <br>
+
+                            <a href="#home">Área de Interesse
+                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
+                            <a href="#news">Região
+                              <span><i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></span></a>
+                            <a href="#contact">Ciclo de Estudos
+                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
+                            <a href="#about">Tipo de Estabelecimento
+                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
+                            <a href="#about">Propinas
+                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
+                        <br>
+                            <br>
+                            <br>
+
+
+                                <button class="btn btn-circle"><i class="material-icons" style="font-size: 26px">done</i></button>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        @foreach ($regions as $region)
+                            <div class="row">
+                                <div class="col-md-12 filters-title">
+                                    {{$region->name}}
+                                </div>
+                                @foreach ($institutions as $institution)
+                                    @if ($institution->region_id == $region->id)
+                                        <div class="col-md-3 col-sm-6">
+                                            <a href="/snippets/" class="card-destaque border-0 shadow-lg">
+                                                <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
+                                                <div class="d-flex text-center flex-column border-0 card-img-overlay">
+                                                    <p class="card-text textodestaques">{{$institution->name}}</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        @else
+                                            <p style="display:none"></p>
+                                    @endif
+                                @endforeach
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
             </div>
         </div>
     </body>
