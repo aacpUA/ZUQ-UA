@@ -23,6 +23,8 @@ class CreateCoursesTable extends Migration
             $table->foreign('institution_id')->references('id')->on('institutions');
             $table->bigInteger('study_cycle_id')->unsigned();
             $table->foreign('study_cycle_id')->references('id')->on('study_cycles');
+            $table->bigInteger('area_id')->unsigned();
+            $table->foreign('area_id')->references('id')->on('areas');
             $table->softDeletes();
         });
     }

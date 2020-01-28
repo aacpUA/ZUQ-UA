@@ -13,13 +13,13 @@ class StudyCyclesTableSeeder extends Seeder
     {
         //
         \App\StudyCycle::create([
-            'name' => 'licenciaturas e mestrados integrados'
+            'name' => 'Licenciaturas e Mestrados Integrados'
          ]);
         \App\StudyCycle::create([
-            'name' => 'licenciaturas e mestrados integrados'
+            'name' => 'Mestrados'
          ]);
         \App\StudyCycle::create([
-            'name' => 'licenciaturas e mestrados integrados'
+            'name' => 'Doutoramentos'
          ]);
     }
 }
