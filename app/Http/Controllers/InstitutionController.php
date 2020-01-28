@@ -15,6 +15,10 @@ class InstitutionController extends Controller
     public function index()
     {
         //
+        $institutions = Institution::all();
+
+        return view('explore')
+        ->with('institutions', $institutions);
     }
 
     /**

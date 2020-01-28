@@ -20,6 +20,8 @@ Route::get('/', 'MainController@index')->name('index');
 
 Route::get('/main', 'MainController@highlights')->name('highlights');
 
+Route::get('/explorar', 'InstitutionController@index')->name('index');
+
 /**
  *  Auth & Registration
  */
