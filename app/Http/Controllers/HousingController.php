@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Exam;
+use App\Housing;
 use Illuminate\Http\Request;
 
-class Exam extends Controller
+class HousingController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class Exam extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Exam  $exam
+     * @param  \App\Housing  $housing
      * @return \Illuminate\Http\Response
      */
-    public function show(Exam $exam)
+    public function show(Housing $housing)
     {
         //
     }
@@ -52,10 +52,10 @@ class Exam extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Exam  $exam
+     * @param  \App\Housing  $housing
      * @return \Illuminate\Http\Response
      */
-    public function edit(Exam $exam)
+    public function edit(Housing $housing)
     {
         //
     }
@@ -64,10 +64,10 @@ class Exam extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Exam  $exam
+     * @param  \App\Housing  $housing
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Exam $exam)
+    public function update(Request $request, Housing $housing)
     {
         //
     }
@@ -75,10 +75,10 @@ class Exam extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Exam  $exam
+     * @param  \App\Housing  $housing
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Exam $exam)
+    public function destroy(Housing $housing)
     {
         //
     }

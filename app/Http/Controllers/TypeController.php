@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Subject;
+use App\Type;
 use Illuminate\Http\Request;
 
-class Subject extends Controller
+class TypeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class Subject extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Subject  $subject
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function show(Subject $subject)
+    public function show(Type $type)
     {
         //
     }
@@ -52,10 +52,10 @@ class Subject extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Subject  $subject
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function edit(Subject $subject)
+    public function edit(Type $type)
     {
         //
     }
@@ -64,10 +64,10 @@ class Subject extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Subject  $subject
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Subject $subject)
+    public function update(Request $request, Type $type)
     {
         //
     }
@@ -75,10 +75,10 @@ class Subject extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Subject  $subject
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Subject $subject)
+    public function destroy(Type $type)
     {
         //
     }

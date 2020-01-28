@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Course;
+use App\Scholarship;
 use Illuminate\Http\Request;
 
-class Course extends Controller
+class ScholarshipController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class Course extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Course  $course
+     * @param  \App\Scholarship  $scholarship
      * @return \Illuminate\Http\Response
      */
-    public function show(Course $course)
+    public function show(Scholarship $scholarship)
     {
         //
     }
@@ -52,10 +52,10 @@ class Course extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Course  $course
+     * @param  \App\Scholarship  $scholarship
      * @return \Illuminate\Http\Response
      */
-    public function edit(Course $course)
+    public function edit(Scholarship $scholarship)
     {
         //
     }
@@ -64,10 +64,10 @@ class Course extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Course  $course
+     * @param  \App\Scholarship  $scholarship
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Course $course)
+    public function update(Request $request, Scholarship $scholarship)
     {
         //
     }
@@ -75,10 +75,10 @@ class Course extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Course  $course
+     * @param  \App\Scholarship  $scholarship
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Course $course)
+    public function destroy(Scholarship $scholarship)
     {
         //
     }

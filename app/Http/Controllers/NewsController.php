@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Area;
+use App\News;
 use Illuminate\Http\Request;
 
-class Area extends Controller
+class NewsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class Area extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Area  $area
+     * @param  \App\News  $news
      * @return \Illuminate\Http\Response
      */
-    public function show(Area $area)
+    public function show(News $news)
     {
         //
     }
@@ -52,10 +52,10 @@ class Area extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Area  $area
+     * @param  \App\News  $news
      * @return \Illuminate\Http\Response
      */
-    public function edit(Area $area)
+    public function edit(News $news)
     {
         //
     }
@@ -64,10 +64,10 @@ class Area extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Area  $area
+     * @param  \App\News  $news
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Area $area)
+    public function update(Request $request, News $news)
     {
         //
     }
@@ -75,10 +75,10 @@ class Area extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Area  $area
+     * @param  \App\News  $news
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Area $area)
+    public function destroy(News $news)
     {
         //
     }

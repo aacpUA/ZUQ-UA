@@ -21,6 +21,12 @@ class InstitutionsTableSeeder extends Seeder
             'region_id' => 2
          ]);
         \App\Institution::create([
+            'name' => 'Faculdade Arquitectura da Universidade do Porto',
+            'info' => 'Ensinar Arquitectura - a concepção e a construção do objecto ou da cidade na sua forma mais sublime que satisfaça o físico e o psíquico do homem, individual ou socialmente considerado - é difícil e apaixonante.',
+            'type_id' => 1,
+            'region_id' => 1
+         ]);
+        \App\Institution::create([
             'name' => 'Faculdade Engenharia da Universidade do Porto',
             'info' => 'A FEUP é uma das instituições de referência global em diversas áreas de Engenharia para estudantes, técnicos, investigadores e gestores, e para inúmeras organizações, nacionais e internacionais. Tal deve-se ao trabalho de toda a sua Comunidade e de muitos parceiros, ao longo de muitos anos, de uma forma persistente, ultrapassando obstáculos de vária natureza, e sempre aproveitando oportunidades para se desenvolver.',
             'type_id' => 1,

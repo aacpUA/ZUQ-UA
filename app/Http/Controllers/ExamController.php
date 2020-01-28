@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\News;
+use App\Exam;
 use Illuminate\Http\Request;
 
-class News extends Controller
+class ExamController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class News extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\News  $news
+     * @param  \App\Exam  $exam
      * @return \Illuminate\Http\Response
      */
-    public function show(News $news)
+    public function show(Exam $exam)
     {
         //
     }
@@ -52,10 +52,10 @@ class News extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\News  $news
+     * @param  \App\Exam  $exam
      * @return \Illuminate\Http\Response
      */
-    public function edit(News $news)
+    public function edit(Exam $exam)
     {
         //
     }
@@ -64,10 +64,10 @@ class News extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\News  $news
+     * @param  \App\Exam  $exam
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, News $news)
+    public function update(Request $request, Exam $exam)
     {
         //
     }
@@ -75,10 +75,10 @@ class News extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\News  $news
+     * @param  \App\Exam  $exam
      * @return \Illuminate\Http\Response
      */
-    public function destroy(News $news)
+    public function destroy(Exam $exam)
     {
         //
     }

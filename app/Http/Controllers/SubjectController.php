@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\StudyCycle;
+use App\Subject;
 use Illuminate\Http\Request;
 
-class StudyCycle extends Controller
+class SubjectController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class StudyCycle extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\StudyCycle  $studyCycle
+     * @param  \App\Subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function show(StudyCycle $studyCycle)
+    public function show(Subject $subject)
     {
         //
     }
@@ -52,10 +52,10 @@ class StudyCycle extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\StudyCycle  $studyCycle
+     * @param  \App\Subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function edit(StudyCycle $studyCycle)
+    public function edit(Subject $subject)
     {
         //
     }
@@ -64,10 +64,10 @@ class StudyCycle extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\StudyCycle  $studyCycle
+     * @param  \App\Subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, StudyCycle $studyCycle)
+    public function update(Request $request, Subject $subject)
     {
         //
     }
@@ -75,10 +75,10 @@ class StudyCycle extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\StudyCycle  $studyCycle
+     * @param  \App\Subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function destroy(StudyCycle $studyCycle)
+    public function destroy(Subject $subject)
     {
         //
     }

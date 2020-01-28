@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Region;
 use Illuminate\Http\Request;
 
-class Region extends Controller
+class RegionController extends Controller
 {
     /**
      * Display a listing of the resource.
