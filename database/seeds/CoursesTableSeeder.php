@@ -69,7 +69,7 @@ class CoursesTableSeeder extends Seeder
             'name' => 'Arquitectura Paisagista',
             'info' => 'O Mestrado Integrado em Arquitetura (MIArq) constitui o curso base de formação generalista da faup. O grau de mestre, a que permite aceder, comprova um nível aprofundado de conhecimentos na área disciplinar da arquitectura e urbanística, atestando a capacidade para o exercício da actividade profissional e/ou a prática da investigação nas referidas áreas. A funcionar em instalações próprias, projectadas por Álvaro Siza, a Escola do Porto, como internacionalmente é conhecida, constitui uma referência nacional e internacional na formação superior em Arquitectura.',
             'website' => 'https://sigarra.up.pt/fcup/pt/cur_geral.cur_view?pv_origem=CAND&pv_curso_id=1011',
-            'institution_id' => 2,
+            'institution_id' => 4,
             'study_cycle_id' => 1,
             'area_id' => 3
          ]);
@@ -77,7 +77,7 @@ class CoursesTableSeeder extends Seeder
             'name' => 'Biologia',
             'info' => 'A licenciatura em Biologia está organizada de modo a fornecer formação teórica e prática (laboratorial e de campo) nas principais áreas da Biologia, incluindo Biodiversidade, Biologia Humana, Ecologia, Evolução, Fisiologia, Genética e Microbiologia, abordados nos aspetos clássicos e modernos decorrentes da Biologia Celular e Molecular, Bioquímica e Biotecnologia.',
             'website' => 'https://sigarra.up.pt/fcup/pt/cur_geral.cur_view?pv_origem=CAND&pv_curso_id=884',
-            'institution_id' => 2,
+            'institution_id' => 4,
             'study_cycle_id' => 1,
             'area_id' => 3
          ]);
@@ -85,7 +85,7 @@ class CoursesTableSeeder extends Seeder
             'name' => 'Bioquímica',
             'info' => 'A formação de profissionais detentores de uma sólida base de conhecimentos fundamentais na área da Bioquímica, criando competências científicas e tecnológicas que permitam: a) a equivalência a Ciclos lecionados por instituições europeias de ensino do mesmo grau; b) à continuação, com razoável autonomia, para uma formação avançada em Bioquímica, ou em ciências afins, em cursos de 2º ciclo de estudos em instituições europeias; c) o seu acesso imediato ao mercado de trabalho.',
             'website' => 'https://sigarra.up.pt/fcup/pt/cur_geral.cur_view?pv_origem=CAND&pv_curso_id=863',
-            'institution_id' => 2,
+            'institution_id' => 4,
             'study_cycle_id' => 1,
             'area_id' => 3
          ]);
@@ -93,7 +93,7 @@ class CoursesTableSeeder extends Seeder
             'name' => 'Ciência de Computadores',
             'info' => 'Ciência de Computadores (CC) como tradução do termo inglês Computer Science, significa, na sua acepção mais geral, ciência que estuda a construção, os métodos e técnicas de utilização de computadores. Esta licenciatura proporciona uma sólida formação em programação dando especial ênfase aos fundamentos científicos que tornaram possível que os computadores sejam atualmente ferramentas potentes e imprescindíveis.',
             'website' => 'https://sigarra.up.pt/fcup/pt/cur_geral.cur_view?pv_origem=CAND&pv_curso_id=885',
-            'institution_id' => 2,
+            'institution_id' => 4,
             'study_cycle_id' => 1,
             'area_id' => 3
          ]);
@@ -101,7 +101,7 @@ class CoursesTableSeeder extends Seeder
             'name' => 'Ciências e Tecnologia do Ambiente',
             'info' => 'Proporcionar formação multidisciplinar e interdisciplinar que permita desenvolver uma compreensão científica dos processos ambientais e dos ecossistemas, e do modo como são afetados por fatores como a poluição do ar, da água e do solo. No 3º Ano, o Projeto permitirá ao aluno desenhar, com autonomia, uma proposta de projeto que, se for viável e inovadora, poderá abrir oportunidades interessantes de emprego ou autoemprego no futuro. O aluno poderá também prosseguir estudos de segundo ciclo em diversas áreas, incluindo Ciências e Tecnologia do Ambiente.',
             'website' => 'https://sigarra.up.pt/fcup/pt/cur_geral.cur_view?pv_origem=CAND&pv_curso_id=887',
-            'institution_id' => 2,
+            'institution_id' => 4,
             'study_cycle_id' => 1,
             'area_id' => 3
          ]);

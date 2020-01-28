@@ -17,7 +17,7 @@ class CreateCoursesTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('name');
-            $table->string('info')->nullable(true);
+            $table->longText('info')->nullable(true);
             $table->string('website')->nullable(true);
             $table->bigInteger('institution_id')->unsigned();
             $table->foreign('institution_id')->references('id')->on('institutions');
