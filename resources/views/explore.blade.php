@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-md-9 col-sm-12" style="overflow-y: scroll; max-height: 100vh">
                         @foreach ($regions as $region)
-                            <div class="row">
+                            <div class="row" style="padding: 0 15px">
                                 <div class="col-md-12 filters-title">
                                     {{$region->name}}
                                 </div>
@@ -64,16 +64,10 @@
                                     <div class="row">
                                         @foreach ($institutions as $institution)
                                             @if ($institution->region_id == $region->id)
-                                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                                                <div class="col-lg-3 col-md-4 col-sm-6 card-explorar-col">
                                                     <div class="card-explorar" style="background-image: url('images/home/imagemperfishomepage.png'); background-repeat:no-repeat">
                                                         <p class="text-explorar">{{$institution->name}}</p>
                                                     </div>
-                                                    {{-- <a href="/snippets/" class="card-destaque border-0 shadow-lg">
-                                                        <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
-                                                        <div class="d-flex text-center flex-column border-0 card-img-overlay">
-                                                            <p class="card-text textodestaques">{{$institution->name}}</p>
-                                                        </div>
-                                                    </a> --}}
                                                 </div>
                                                 @else
                                                     <p style="display:none"></p>

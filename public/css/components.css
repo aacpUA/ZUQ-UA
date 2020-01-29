@@ -383,6 +383,13 @@ background-color:#c4c4c4;
 
 }
 
+@media (max-width: 575px) {
+    .card-explorar-col {
+        width: 50%;
+
+    }
+}
+
 .card-explorar > p {
     font-family: 'Lato', sans-serif;
     color: white;
