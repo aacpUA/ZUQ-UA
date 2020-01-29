@@ -27,7 +27,7 @@
         <div id="app">
             {{-- @if(!Route::is('/')) --}}
             @section('header')
-            <nav class="navbar navbar-expand-lg" style="background-color: #b9181c; justify-content: space-between">
+            <nav class="navbar navbar-expand-lg" style="background-color: #b9181c; justify-content: space-between; width: 100vw">
                 <a class="navbar-brand" href="#">
                     <img src="/images/logozuq.png"  width="60vw" alt="Logo ZUQ">
                 </a>
@@ -66,9 +66,9 @@
             </nav>
         @show
     {{-- @endif --}}
-            <main class="py-4">
+
                 @yield('content')
-            </main>
+
             @section('footer')
             <footer class="page-footer font-small stylish-color-dark pt-4 fundofooter lato">
 

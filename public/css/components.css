@@ -376,6 +376,24 @@ background-color:#c4c4c4;
 .card-destaque {
     position: center;
 }
+
+.card-explorar {
+    height:100%;
+    padding: 25% 10px
+
+}
+
+.card-explorar > p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 767px) {
+
+}
+
 @media (min-width: 992px) {
         .homedestaque {
             padding-top: 190px;
