@@ -16,25 +16,48 @@
     @section('content')
 
     <body>
-                <div class="row">
+                <div class="row lato">
                     <div class="col-md-3 hidden-sm">
-                        <div class="sidebar">
+                        <div class="filters-sidebar">
+                            <div class="filters-title" style="margin: 0">
+                                Filtros
+                            </div>
+                            <div style="width: 90%">
+                                <form class="form-inline filters-search-bar">
+                                    <input class="form-control" type="search" placeholder="pesquisar" aria-label="Search">
+                                    <i class="material-icons" style="font-size: 28px">search</i>
+                                </form>
+                            </div>
                             <!-- Search form
                             <input class="form-control" type="text" placeholder="Search" aria-label="Search"> -->
 
-
-                        <br>
-
-                                <form class="form-inline my-2 my-lg-0">
-                                    <div class="d-flex align-items-center icon-search">
-                                        <i class="material-icons" style="font-size: 28px">search</i>
-                                        <input class="form-control no-border-outline mr-sm-2 search" type="search" placeholder="pesquisar" aria-label="Search">
+                            <div class="filters-categories">
+                                <button class="category collapsed" type="button" data-toggle="collapse" data-target="#category-menu-1" aria-expanded="false" aria-controls="category-menu-1">
+                                    <p>Área de Interesse</p>
+                                    <i class="material-icons">keyboard_arrow_down</i>
+                                </button>
+                                <div class="category-menu collapse" id="category-menu-1">
+                                    <div class="card-body">
+                                        <div class="form-check">
+                                            <label class="form-check-label category-menu-list-item" for="check1">Agricultura</label>
+                                            <input type="checkbox" class="" id="check1">
+                                        </div>
                                     </div>
-                                </form>
+                                </div>
 
-                            <br>
-
-                            <a href="#home">Área de Interesse
+                                <div class="category collapsed" >
+                                    <p>Curso</p>
+                                    <i class="material-icons">keyboard_arrow_down</i>
+                                </div>
+                                <div class="category collapsed">
+                                    <p>Instituição</p>
+                                    <i class="material-icons">keyboard_arrow_down</i>
+                                </div>
+                                <div class="category collapsed">
+                                    <p>Modalidade</p>
+                                    <i class="material-icons">keyboard_arrow_down</i>
+                                </div>
+                               {{-- <a href="#home">Área de Interesse
                                 <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
                             <a href="#news">Região
                               <span><i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></span></a>
@@ -43,15 +66,14 @@
                             <a href="#about">Tipo de Estabelecimento
                                 <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
                             <a href="#about">Propinas
-                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
-                        <br>
-                            <br>
-                            <br>
+                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a> --}}
+                            </div>
+
+
+
 
 
                                 {{-- <button class="btn btn-circle"><i class="material-icons" style="font-size: 26px">done</i></button> --}}
-
-
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-12" style="overflow-y: scroll; max-height: 100vh">

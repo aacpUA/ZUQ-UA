@@ -255,13 +255,6 @@ background-color:#c4c4c4;
     outline: none;
     background-color: #eef1f2;
 }
-.icon-search {
-    border-radius: 5px;
-    color: #e0e0e0;
-    background-color: #fafafa;
-    padding-left: 10px;
-    margin-left: 10px;
-}
 .search{
     border-radius: 5px;
     color: #e0e0e0;
@@ -335,6 +328,101 @@ background-color:#c4c4c4;
     margin-left: 300px;
     color: white;
 }
+
+/*  Barra pesquisa */
+
+.filters-sidebar {
+    padding: 20px 15px;
+
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+    background-color: rgba(224, 224, 224, 0.5);
+}
+
+.filters-search-bar {
+    background-color: #e4e4e4;
+    padding: 5px;
+    border-radius: 7%;
+}
+
+.filters-search-bar > input {
+    width: 85% !important;
+    margin-right: 1vw
+}
+.filters-search-bar > i {
+    cursor: pointer;
+}
+
+.filters-categories {
+    padding: 20px 0;
+}
+
+.category{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    overflow:visible !important;
+    border-radius: 5% !important;
+    border-bottom-right-radius: 5% !important;
+    border-bottom-left-radius: 5% !important;
+    /* box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.5); */
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.category:hover {
+    transform: scale(101%, 101%);
+}
+
+
+.category > p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.category > i {
+    font-size: 28px;
+    margin-right: -25px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+
+    transition: rotate 0.5s;
+}
+
+.category:not(.collapsed) > i{
+    transform: rotate(0.5turn);
+}
+
+.category-menu {
+    background-color: white;
+    width: 90%;
+    margin-top:-10px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+
+    box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.category-menu-list-item {
+    border: none;
+    text-align: left;
+}
+
+.category-menu-list-item.active {
+    background-color: white !important;
+    color: red !important;
+}
+
  /* Menus Gerais */
 
 
