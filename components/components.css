@@ -255,7 +255,22 @@ margin-bottom: 10px;
     color: #b792b0;
 }
 
+.cardalojamentosprivados{
+    align-content: center;
+    margin: 1%;
+    display: inline-block;
+    border: none;
+}
 
+.cardtextalojamentosprivados{
+    text-align: center;
+    font-size: large;
+    display: inline-block;
+    color: black;
+}
 
-
-
+.estiloimagem{
+    max-width:100%;
+    height:auto;
+    fill: #b792b0;
+}
