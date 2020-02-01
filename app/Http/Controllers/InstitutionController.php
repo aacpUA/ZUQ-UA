@@ -13,7 +13,13 @@ class InstitutionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+
+    public function index() {
+        return view('explorehome');
+    }
+
+
+    public function explore()
     {
         //
         $institutions = Institution::all();

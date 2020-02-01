@@ -90,7 +90,7 @@
                                         @foreach ($institutions as $institution)
                                             @if ($institution->region_id == $region->id)
                                                 <div class="col-lg-3 col-md-4 col-sm-6 card-explorar-col">
-                                                    <div class="card-explorar" style="background-image: url('images/home/imagemperfishomepage.png'); background-repeat:no-repeat">
+                                                    <div class="card-explorar" style="background-image: url('../images/home/imagemperfishomepage.png'); background-repeat:no-repeat">
                                                         <p class="text-explorar">{{$institution->name}}</p>
                                                     </div>
                                                 </div>

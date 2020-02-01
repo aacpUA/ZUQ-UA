@@ -37,16 +37,16 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
-                                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
-                                    <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
+                                <a href="{{ url('/destaques/aluno') }}" class="card-destaque border-0 shadow-lg">
+                                    <img class="card-img img-fluid" src="images/home/perfil_estudante.png">
                                     <div class="d-flex text-center flex-column border-0 card-img-overlay">
                                         <p class="card-text textodestaques">ESTUDANTE</p>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
-                                <a href="/snippets/" class="card-destaque border-0 shadow-lg">
-                                    <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
+                                <a href="{{ url('/destaques/encarregado') }}" class="card-destaque border-0 shadow-lg">
+                                    <img class="card-img img-fluid" src="images/home/perfil_encarregado.png">
                                     <div class="d-flex text-center flex-column border-0 card-img-overlay">
                                         <p class="card-text textodestaques">ENCARREGADO DE EDUCAÇÃO</p>
                                     </div>
@@ -54,7 +54,7 @@
                             </div>
                             <div class="col-lg-4 col-md-8 mb-3 mb-lg-0 mx-auto">
                                 <a href="/snippets/" class="card-destaque border-0 shadow-lg">
-                                    <img class="card-img img-fluid" src="images/home/imagemperfishomepage.png">
+                                    <img class="card-img img-fluid" src="images/home/perfil_professor.png">
                                     <div class="d-flex text-center flex-column border-0 card-img-overlay">
                                         <p class="card-text textodestaques">PROFESSOR</p>
                                     </div>
