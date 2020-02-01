@@ -557,3 +557,114 @@ background-color:#c4c4c4;
 .botaogeral {
     color: #f8f9fa;
 }
+
+/* noticias */
+
+.noticias{
+    font-size: medium;
+    text-align: center;
+}
+
+.noticias1{
+     height: 100%;
+}
+
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    width: 300px;
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.botaopublico {
+    background-color: #e62738;
+    border-color: #e62738;
+    display: inline-flex;
+    width: inherit;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.botaopublico:hover {
+    background-color: #b9181c;
+    border-color: #b9181c;
+    color: white;
+}
+
+
+.botaopublico:active{
+    background-color: #b9181c;
+}
+
+.botaopublico1{
+    text-align: center;
+}
+
+.cardnoticias{
+    border-radius: 5px;
+    width: auto;
+    height: 105px;
+}
+
+.bottom-left {
+    font-family: Lato;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.h3noticias{
+    font-size: x-large;
+}
+
+.imagemnoticia{
+width: 270px;
+margin-bottom: 10px;
+}
+
+
+.cardalojamentos{
+    align-content: center;
+    margin: 1%;
+    display: inline-block;
+
+}
+
+.cardtextalojamentos{
+    padding: 50px;
+    text-align: center;
+    color: #b792b0;
+}
+
+.cardalojamentosprivados{
+    align-content: center;
+    margin: 1%;
+    display: inline-block;
+    border: none;
+}
+
+.cardtextalojamentosprivados{
+    text-align: center;
+    font-size: large;
+    display: inline-block;
+    color: black;
+}
+
+.estiloimagem{
+    max-width:100%;
+    height:auto;
+    fill: #b792b0;
+}
