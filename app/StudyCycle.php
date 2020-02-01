@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Institution extends Model
+class StudyCycle extends Model
 {
     //
     public function courses() {

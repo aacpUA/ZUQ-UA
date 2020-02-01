@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInstitutionsTable extends Migration
+class CreateCoursesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,18 +13,18 @@ class CreateInstitutionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('institutions', function (Blueprint $table) {
+        Schema::create('courses', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('name');
             $table->longText('info')->nullable(true);
             $table->string('website')->nullable(true);
-            $table->string('icon')->nullable(true);
-            $table->string('contact')->nullable(true);
-            $table->bigInteger('type_id')->unsigned();
-            $table->foreign('type_id')->references('id')->on('types');
-            $table->bigInteger('region_id')->unsigned();
-            $table->foreign('region_id')->references('id')->on('regions');
+            $table->bigInteger('institution_id')->unsigned();
+            $table->foreign('institution_id')->references('id')->on('institutions');
+            $table->bigInteger('study_cycle_id')->unsigned();
+            $table->foreign('study_cycle_id')->references('id')->on('study_cycles');
+            $table->bigInteger('area_id')->unsigned();
+            $table->foreign('area_id')->references('id')->on('areas');
             $table->softDeletes();
         });
     }
@@ -36,6 +36,6 @@ class CreateInstitutionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('institutions');
+        Schema::dropIfExists('courses');
     }
 }

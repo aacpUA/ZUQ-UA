@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Exam;
+use App\Type;
 use Illuminate\Http\Request;
 
-class Exam extends Controller
+class TypeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class Exam extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Exam  $exam
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function show(Exam $exam)
+    public function show(Type $type)
     {
         //
     }
@@ -52,10 +52,10 @@ class Exam extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Exam  $exam
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function edit(Exam $exam)
+    public function edit(Type $type)
     {
         //
     }
@@ -64,10 +64,10 @@ class Exam extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Exam  $exam
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Exam $exam)
+    public function update(Request $request, Type $type)
     {
         //
     }
@@ -75,10 +75,10 @@ class Exam extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Exam  $exam
+     * @param  \App\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Exam $exam)
+    public function destroy(Type $type)
     {
         //
     }

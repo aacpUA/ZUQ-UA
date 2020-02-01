@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Institution;
-use App\Region;
+use App\StudyCycle;
 use Illuminate\Http\Request;
 
-class InstitutionController extends Controller
+class StudyCycleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,11 +15,6 @@ class InstitutionController extends Controller
     public function index()
     {
         //
-        $institutions = Institution::all();
-        $regions = Region::all();
-
-        return view('explore', ['institutions' => $institutions, 'regions' => $regions]);
-        // ->with('institutions', $institutions);
     }
 
     /**
@@ -47,10 +41,10 @@ class InstitutionController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Institution  $institution
+     * @param  \App\StudyCycle  $studyCycle
      * @return \Illuminate\Http\Response
      */
-    public function show(Institution $institution)
+    public function show(StudyCycle $studyCycle)
     {
         //
     }
@@ -58,10 +52,10 @@ class InstitutionController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Institution  $institution
+     * @param  \App\StudyCycle  $studyCycle
      * @return \Illuminate\Http\Response
      */
-    public function edit(Institution $institution)
+    public function edit(StudyCycle $studyCycle)
     {
         //
     }
@@ -70,10 +64,10 @@ class InstitutionController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Institution  $institution
+     * @param  \App\StudyCycle  $studyCycle
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Institution $institution)
+    public function update(Request $request, StudyCycle $studyCycle)
     {
         //
     }
@@ -81,10 +75,10 @@ class InstitutionController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Institution  $institution
+     * @param  \App\StudyCycle  $studyCycle
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Institution $institution)
+    public function destroy(StudyCycle $studyCycle)
     {
         //
     }
