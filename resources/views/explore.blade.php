@@ -30,44 +30,47 @@
                             </div>
                             <!-- Search form
                             <input class="form-control" type="text" placeholder="Search" aria-label="Search"> -->
+                            <form role="form" method="POST">
+                            {{-- <form role="form" method="POST" action="{{ route('institution.find') }}"> --}}
 
-                            <div class="filters-categories">
-                                <button class="category collapsed" type="button" data-toggle="collapse" data-target="#category-menu-1" aria-expanded="false" aria-controls="category-menu-1">
-                                    <p>Área de Interesse</p>
-                                    <i class="material-icons">keyboard_arrow_down</i>
-                                </button>
-                                <div class="category-menu collapse" id="category-menu-1">
-                                    <div class="card-body">
-                                        <div class="form-check">
-                                            <label class="form-check-label category-menu-list-item" for="check1">Agricultura</label>
-                                            <input type="checkbox" class="" id="check1">
+                                <div class="filters-categories">
+                                    <button class="category collapsed" type="button" data-toggle="collapse" data-target="#category-menu-1" aria-expanded="false" aria-controls="category-menu-1">
+                                        <p>Área de Interesse</p>
+                                        <i class="material-icons">keyboard_arrow_down</i>
+                                    </button>
+                                    <div class="category-menu collapse" id="category-menu-1">
+                                        <div class="card-body">
+                                            <div class="form-check">
+                                                <label class="form-check-label category-menu-list-item" for="check1">Agricultura</label>
+                                                <input type="checkbox" class="" id="check1">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="category collapsed" >
-                                    <p>Curso</p>
-                                    <i class="material-icons">keyboard_arrow_down</i>
+                                    <div class="category collapsed" >
+                                        <p>Tipo de Estabelecimento</p>
+                                        <i class="material-icons">keyboard_arrow_down</i>
+                                    </div>
+                                    <div class="category collapsed">
+                                        <p>Ciclo Estudos</p>
+                                        <i class="material-icons">keyboard_arrow_down</i>
+                                    </div>
+                                    <div class="category collapsed">
+                                        <p>Região</p>
+                                        <i class="material-icons">keyboard_arrow_down</i>
+                                    </div>
+                                {{-- <a href="#home">Área de Interesse
+                                    <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
+                                <a href="#news">Região
+                                <span><i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></span></a>
+                                <a href="#contact">Ciclo de Estudos
+                                    <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
+                                <a href="#about">Tipo de Estabelecimento
+                                    <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
+                                <a href="#about">Propinas
+                                    <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a> --}}
                                 </div>
-                                <div class="category collapsed">
-                                    <p>Instituição</p>
-                                    <i class="material-icons">keyboard_arrow_down</i>
-                                </div>
-                                <div class="category collapsed">
-                                    <p>Modalidade</p>
-                                    <i class="material-icons">keyboard_arrow_down</i>
-                                </div>
-                               {{-- <a href="#home">Área de Interesse
-                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
-                            <a href="#news">Região
-                              <span><i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></span></a>
-                            <a href="#contact">Ciclo de Estudos
-                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
-                            <a href="#about">Tipo de Estabelecimento
-                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a>
-                            <a href="#about">Propinas
-                                <i class="material-icons iconfiltroazul" style="font-size: 22px">keyboard_arrow_right</i></a> --}}
-                            </div>
+                            </form>
 
 
 
