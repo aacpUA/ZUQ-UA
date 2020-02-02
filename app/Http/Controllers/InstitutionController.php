@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Area;
 use App\Institution;
 use App\Region;
 use Illuminate\Http\Request;
@@ -24,8 +25,9 @@ class InstitutionController extends Controller
         //
         $institutions = Institution::all();
         $regions = Region::all();
+        $areas = Area::all();
 
-        return view('explore', ['institutions' => $institutions, 'regions' => $regions]);
+        return view('explore', ['institutions' => $institutions, 'regions' => $regions, 'areas' => $areas]);
         // ->with('institutions', $institutions);
     }
 
