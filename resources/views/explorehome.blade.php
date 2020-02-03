@@ -34,19 +34,19 @@
                         </button>
                         </div>
                     </div>
-                    <div class="mx-auto">
+                    {{-- <div class="mx-auto">
                     <div class="row">
                         <button type="button" class="btn btn-light d-flex">
                             <i class="material-icons" style="color: #e62738">post_add</i>
                             <p class="text-geral">Curso</p>
                         </button>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="mx-auto">
                         <div class="row">
-                    <button type="button" class="btn btn-light d-flex py-2">
+                    <button type="button" class="btn btn-light d-flex py-2" onclick="window.location='{{ route('/explorar/lista') }}'">
                         <i class="material-icons" style="color: #e62738">school</i>
-                        <p class="text-geral">Instituições</p>
+                        <p class="text-geral">Cursos / Instituições</p>
                     </button>
                         </div>
                     </div>
