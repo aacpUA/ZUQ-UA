@@ -44,7 +44,7 @@
                     </div> --}}
                     <div class="mx-auto">
                         <div class="row">
-                    <button type="button" class="btn btn-light d-flex py-2" onclick="window.location='{{ route('/explorar/lista') }}'">
+                    <button type="button" class="btn btn-light d-flex py-2" onclick="window.location='{{ route('explore') }}'">
                         <i class="material-icons" style="color: #e62738">school</i>
                         <p class="text-geral">Cursos / Instituições</p>
                     </button>

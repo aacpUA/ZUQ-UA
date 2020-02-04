@@ -17,6 +17,7 @@ class CreateInstitutionsTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('name');
+            $table->longText('image');
             $table->longText('info')->nullable(true);
             $table->string('website')->nullable(true);
             $table->string('icon')->nullable(true);

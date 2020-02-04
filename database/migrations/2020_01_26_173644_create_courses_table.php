@@ -17,8 +17,11 @@ class CreateCoursesTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('name');
+            $table->longText('image');
             $table->longText('info')->nullable(true);
             $table->string('website')->nullable(true);
+            $table->string('email')->nullable(true);
+            $table->string('phone')->nullable(true);
             $table->bigInteger('institution_id')->unsigned();
             $table->foreign('institution_id')->references('id')->on('institutions');
             $table->bigInteger('study_cycle_id')->unsigned();

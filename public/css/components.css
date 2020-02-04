@@ -291,11 +291,12 @@ background-color:#c4c4c4;
 
 
 /* Filtros */
-.filters-title {
-    text-align: left;
-    font-size: xx-large;
-    margin: 25px 0 0 0;
-}
+    .filters-title {
+        text-align: left;
+        font-size: xx-large;
+        margin: 25px 0 0 0;
+    }
+
 
 
 /*filtro selecionado*/
@@ -330,6 +331,22 @@ background-color:#c4c4c4;
 }
 
 /*  Barra pesquisa */
+@media (max-width: 992px) {
+    .hide-sm-custom {
+        display:none;
+    }
+}
+@media (max-width: 992px) {
+    .show-sm-custom {
+        display:inherit;
+    }
+}
+
+.botao-filtros {
+    background-color: rgb(66, 176, 183);
+    color: white;
+    max-width: 75%;
+}
 
 .filters-sidebar {
     padding: 20px 15px;
@@ -552,7 +569,9 @@ background-color:#c4c4c4;
 
 .card-explorar {
     height:100%;
-    padding: 25% 10px
+    padding: 25% 10px;
+    margin-bottom: 20px;
+    max-height: 250px
 
 }
 
