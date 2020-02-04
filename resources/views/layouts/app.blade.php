@@ -56,7 +56,7 @@
                             <a class="nav-link" href="{{ url('/noticias') }}">notícias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/soon') }}">recursos</a>
+                            <a class="nav-link" href="{{ url('/recursos') }}">recursos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/soon') }}">oportunidades</a>

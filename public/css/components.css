@@ -159,6 +159,21 @@ background-color:#c4c4c4;
     width: 100vw;
 
 }
+.navbar-scroll ul::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    width: 0px !important;
+}
+.navbar-scroll ul::-webkit-scrollbar-track {
+    display: none;
+    -ms-overflow-style: none;
+    width: 0px !important;
+}
+.navbar-scroll ul::-webkit-scrollbar-thumb {
+    display: none;
+    -ms-overflow-style: none;
+    width: 0px !important;
+}
 
 /* Active/current link */
 .navbar-scroll a.active {
@@ -176,6 +191,7 @@ background-color:#c4c4c4;
 .navbar-scroll ul {
     margin: auto;
     overflow-x: scroll;
+    scrollbar-width: none;
 }
 
 
@@ -335,10 +351,16 @@ background-color:#c4c4c4;
     .hide-sm-custom {
         display:none;
     }
-}
-@media (max-width: 992px) {
     .show-sm-custom {
         display:inherit;
+    }
+}
+@media (min-width: 992px) {
+    .hide-sm-custom {
+        display:inherit;
+    }
+    .show-sm-custom {
+        display:none;
     }
 }
 
@@ -571,8 +593,8 @@ background-color:#c4c4c4;
     height:100%;
     padding: 25% 10px;
     margin-bottom: 20px;
-    max-height: 250px
-
+    max-height: 250px;
+    cursor: pointer;
 }
 
 @media (max-width: 575px) {

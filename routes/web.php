@@ -28,6 +28,12 @@ Route::get('/explorar/find', 'InstitutionController@find')->name('explore.find')
 Route::get('/cursos/{id}', 'CourseController@show')->name('cursos.show');
 
 Route::view('/destaques/aluno', 'destaques.aluno');
+
+Route::view('/recursos', 'resources');
+
+Route::view('/alojamentos', 'housing.index');
+Route::view('/alojamentos/privados', 'housing.private');
+
 Route::view('/noticias', 'news');
 
 /**

@@ -252,9 +252,9 @@
                                             @endif
                                         @else
                                             @if ($secondary_key->institution_id == $primary_key->id)
-                                                <div class="col-lg-3 col-md-4 col-sm-6 card-explorar-col">
+                                                <div class="col-lg-3 col-md-4 col-sm-6 card-explorar-col" onclick="window.location='{{ route('cursos.show',['id' => $secondary_key->id]) }}'">
                                                     <div class="card-explorar" style="background-image: url('../images/home/imagemperfishomepage.png'); background-repeat:no-repeat">
-                                                        <p class="text-explorar" onclick="window.location='{{ route('cursos.show',['id' => $secondary_key->id]) }}'">{{$secondary_key->name}}</p>
+                                                        <p class="text-explorar">{{$secondary_key->name}}</p>
                                                     </div>
                                                 </div>
                                             @else
