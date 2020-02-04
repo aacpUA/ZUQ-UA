@@ -43,10 +43,51 @@ class InstitutionsTableSeeder extends Seeder
             'region_id' => 1
          ]);
         \App\Institution::create([
+            'name' => 'Universidade do Minho',
+            'info' => 'A Universidade do Minho está actualmente entre as mais prestigiadas instituições de ensino superior do país, tendo também vindo a afirmar-se progressivamente  no panorama internacional. ',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.guimaraesdigital.com%2Fimages%2Funiversidade_minho.jpg&f=1&nofb=1',
+            'type_id' => 1,
+            'region_id' => 1
+         ]);
+
+
+
+        \App\Institution::create([
             'name' => 'Faculdade Ciências da Universidade de Lisboa',
             'info' => 'A Faculdade de Ciências é uma das 18 escolas da Universidade de Lisboa (ULisboa). Tem como missão expandir os limites do conhecimento científico e tecnológico, transferir esse conhecimento para a sociedade e promover a educação dos seus estudantes através da prática da investigação e desenvolvimento de uma cultura de aprendizagem permanente, valorizando o pensamento crítico e a autonomia intelectual.',
             'image' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F8d%2FFaculdade_de_Ci%25C3%25AAncias_da_Universidade_de_Lisboa_9242.jpg&f=1&nofb=1',
             'type_id' => 1,
+            'region_id' => 2
+         ]);
+        \App\Institution::create([
+            'name' => 'Universidade Aberta',
+            'info' => 'Fundada em 1988, a Universidade Aberta (UAb) é a única instituição de ensino superior público a distância em Portugal.
+
+            Pela sua vocação e natureza, a UAb utiliza nas suas atividades de ensino, as mais avançadas metodologias e tecnologias de ensino a distância orientadas para a educação sem fronteiras geográficas nem barreiras físicas, e dando especial enfoque à expansão da língua e da cultura portuguesas no espaço da lusofonia (comunidades migrantes e países de língua oficial portuguesa).',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.e-konomista.pt%2Farticles%2F850_400_universidade-aberta.jpg&f=1&nofb=1',
+            'type_id' => 1,
+            'region_id' => 2
+         ]);
+        \App\Institution::create([
+            'name' => 'Instituto Superior de Ciências Sociais e Políticas',
+            'info' => 'O ISCSP promove a formação dos seus alunos nas áreas das Ciências Sociais e Políticas, oferecendo ensino graduado (licenciatura) e pós graduado, de segundo e terceiro nível, correspondente aos graus de mestre e de doutor. Na matriz do ensino incluem-se as áreas científicas da Sociologia, da Administração Pública e das Políticas Públicas, da Ciência Política, das Relações Internacionais, da Política Social, da Antropologia, e da Comunicação Social.',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jornaleconomico.sapo.pt%2Fwp-content%2Fuploads%2F2018%2F07%2FEdificio-ISCSP-ULisboa.jpg&f=1&nofb=1',
+            'type_id' => 3,
+            'region_id' => 2
+         ]);
+        \App\Institution::create([
+            'name' => 'Instituto Superior Técnico',
+            'info' => 'O Instituto Superior Técnico é uma instituição centenária, com cerca de 11.000 alunos, que, desde 2013, passou a integrar a nova Universidade de Lisboa, a maior do país.',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F1a%2FInstituto_Superior_T%25C3%25A9cnico_8895.jpg&f=1&nofb=1',
+            'type_id' => 3,
+            'region_id' => 2
+         ]);
+
+        \App\Institution::create([
+            'name' => 'Instituto Politécnico de Setúbal',
+            'info' => 'O Instituto Politécnico de Setúbal (IPS) é uma instituição de ensino superior pública, constituída por cinco Escolas Superiores a funcionar em dois campus, Tecnologia de Setúbal, Educação, Ciências Empresariais e Saúde no campus de Setúbal e Tecnologia do Barreiro no campus do Barreiro. Com um campus numa das mais belas baías do mundo,',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.si.ips.pt%2Fese_si%2Fweb_gessi_docs.download_file%3Fp_name%3DF1523184872%2Fesedia27.jpg&f=1&nofb=1',
+            'type_id' => 3,
             'region_id' => 3
          ]);
         \App\Institution::create([
@@ -58,6 +99,16 @@ class InstitutionsTableSeeder extends Seeder
             'type_id' => 1,
             'region_id' => 3
          ]);
+        \App\Institution::create([
+            'name' => 'Instituto Piaget',
+            'info' => 'A história do Instituto está intimamente ligada ao percurso e ao trabalho do homem que dá nome a este universo, Jean Piaget. Uma evolução marcada pela adaptação, pelo interesse natural na dinâmica e na mudança das coisas e pelo seu estudo. Uma história que se define numa transformação por etapas para ser cada vez melhor.',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.-LLTeE_u-y8C7SWLzB6h5QHaD8%26pid%3DApi&f=1',
+            'type_id' => 1,
+            'region_id' => 3
+         ]);
+
+
+
         \App\Institution::create([
             'name' => 'Universidade dos Açores',
             'info' => 'Fundada em 1976, a Universidade dos Açores consolidou-se ao longo das décadas como uma instituição de referência no seio do arquipélago, conseguindo edificar laços científicos e culturais dentro e inter-ilhas. Mas firmou-se também como uma instituição de caráter universalista, potenciando a relevância que a sua natureza atlântica lhe confere: uma verdadeira ponte entre a Europa, as Américas e outras geografias do saber, confirmando que, nela, a Scientia Lucet.',

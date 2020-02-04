@@ -25,7 +25,7 @@
         </div>
         <div>
             <div>
-                <i class="material-icons" style="font-size: xx-large; color: #b9181c; float: right; margin-right: 30px; margin-top: 5px">
+                <i class="material-icons" style="font-size: xx-large; color: #b9181c; float: right; margin-right: 30px; margin-top: 5px" type="button" data-toggle="modal" data-target="#loginModal">
                     bookmark_border</i>
             </div>
             <div style="font-family: Lato">

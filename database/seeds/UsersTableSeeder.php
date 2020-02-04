@@ -26,6 +26,12 @@ class UsersTableSeeder extends Seeder
             'password' => Hash::make('manager123'),
             'role_id' => 2,
         ]);
+        \App\User::create([
+            'name' => 'TDI',
+            'email' => 'utilizador@tdi.pt',
+            'password' => Hash::make('TDI123'),
+            'role_id' => 1,
+        ]);
 
         factory('App\User', 20)->create();
     }

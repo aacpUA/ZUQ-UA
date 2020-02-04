@@ -38,9 +38,51 @@
                 <div class="navbar-header pull-right"  style="align-items: end" id="navbarSupportedContent">
 
                     <i class="material-icons" style="font-size: 28px">search</i>
-                    <i class="material-icons md-48" style="font-size: 28px">account_circle</i>
+                    <i class="material-icons md-48" style="font-size: 28px; background-color: rgba(0, 0, 0, 0);" type="button" data-toggle="modal" data-target="#loginModal">account_circle</i>
                 </div>
             </nav>
+
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Log-in</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-signin text-center lato" style="margin-top: -70px">
+
+
+                            <br>
+                            <img class="mb-4 imagemsenhora" src="images/ícone-login.png" alt="" width="72" height="72">
+                            <br>
+
+                            <a class="h3 mb-3 font-weight-normal lato paragrafologin">
+                                <a href="login.html" class="paragrafologin" <li style="color: black">login </li> </a>
+                            <a href="registo.html" class="paragrafologin" <li style="margin-left: 40px; color: #c4c4c4">registo</li> </a>
+
+                            <hr class="linha"/>
+
+                            <label for="inputEmail" class="sr-only caixaform" style="font-size: small">nome de utilizador</label>
+                            <input type="email" id="inputEmail" class="form-control caixaform" style="font-size: small" placeholder="nome de utilizador" required="" autofocus="">
+
+                            <label for="inputPassword" class="sr-only caixaform" style="font-size: small">palavra passe</label>
+                            <input type="email" id="inputPassword" class="form-control caixaform" style="font-size: small" placeholder="palavra-passe" required="" autofocus="">
+
+                            <div class=" mb-3" style="font-size: x-small; text-align: right">
+                                <br>
+                                <a  href="#!" style="color: #b9181c"> palavra passe esquecida? </a>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block botaologin" type="submit">ENTRAR</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                  </div>
+                </div>
+            </div>
 
             <!-- Scroll lateral -->
             <nav class="navbar navbar-expand-lg menuscroll">

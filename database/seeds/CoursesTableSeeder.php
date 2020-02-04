@@ -138,5 +138,39 @@ class CoursesTableSeeder extends Seeder
             'study_cycle_id' => 1,
             'area_id' => 3
          ]);
+        \App\Course::create([
+            'name' => 'Administração Pública',
+            'info' => 'O 1º Ciclo em Administração Pública oferece aos alunos uma formação sólida em fundamentos teóricos da Gestão Pública e das Políticas Públicas. Procura também desenvolver uma aprendizagem pragmática permitindo a aplicação de conhecimentos, competências e capacidades necessárias para enfrentar os desafios da gestão pública moderna.',
+            'website' => 'https://sigarra.up.pt/fcup/pt/cur_geral.cur_view?pv_origem=CAND&pv_curso_id=887',
+            'email' => ' ccultural@reitoria.uminho.pt​',
+            'phone' => ' 253601139 ',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.guimaraesdigital.com%2Fimages%2Funiversidade_minho.jpg&f=1&nofb=1',
+            'institution_id' => 5,
+            'study_cycle_id' => 1,
+            'area_id' => 5
+         ]);
+
+        \App\Course::create([
+            'name' => 'Humanidades',
+            'info' => 'A Licenciatura em Humanidades é um curso do 1º ciclo de estudos superiores que procura oferecer conhecimentos e dar competências na área das ciências humanas, com dois horizontes formativos. Um primeiro horizonte relaciona-se com o enriquecimento cultural que esta formação constitui na vida ativa e profissional.',
+            'website' => 'https://sigarra.up.pt/fcup/pt/cur_geral.cur_view?pv_origem=CAND&pv_curso_id=887',
+            'email' => ' ccultural@reitoria.uminho.pt​',
+            'phone' => ' 253601139 ',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.guimaraesdigital.com%2Fimages%2Funiversidade_minho.jpg&f=1&nofb=1',
+            'institution_id' => 7,
+            'study_cycle_id' => 1,
+            'area_id' => 5
+         ]);
+        \App\Course::create([
+            'name' => 'Bioquímica',
+            'info' => 'Planear, gerir e executar projetos nas áreas das ciências da vida (neuroquímica, oncobiologia, biologia de sistemas, bioinformática, biotecnologia…) são algumas das competências do Bioquímico. Curioso?',
+            'website' => 'https://ciencias.ulisboa.pt/pt/tags/bioqu%C3%ADmica',
+            'email' => ' ajbarbosa@ciencias.ulisboa.pt',
+            'phone' => ' 253601139 ',
+            'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.guimaraesdigital.com%2Fimages%2Funiversidade_minho.jpg&f=1&nofb=1',
+            'institution_id' => 6,
+            'study_cycle_id' => 1,
+            'area_id' => 3
+         ]);
     }
 }
