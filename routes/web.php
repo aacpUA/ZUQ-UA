@@ -22,6 +22,14 @@ Route::get('/main', 'MainController@highlights')->name('highlights');
 
 Route::get('/explorar', 'InstitutionController@index')->name('index');
 
+Route::get('/explorar/lista', 'InstitutionController@explore')->name('explore');
+Route::get('/explorar/find', 'InstitutionController@find')->name('explore.find');
+
+Route::get('/cursos/{id}', 'CourseController@show')->name('cursos.show');
+
+Route::view('/destaques/aluno', 'destaques.aluno');
+Route::view('/noticias', 'news');
+
 /**
  *  Auth & Registration
  */

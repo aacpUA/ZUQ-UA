@@ -28,7 +28,7 @@
             {{-- @if(!Route::is('/')) --}}
             @section('header')
             <nav class="navbar navbar-expand-lg" style="background-color: #b9181c; justify-content: space-between; width: 100vw">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="/images/logozuq.png"  width="60vw" alt="Logo ZUQ">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,19 +47,19 @@
                 <div class="navbar-scroll" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">início</a>
+                            <a class="nav-link" href="{{ url('/') }}">início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">explorar</a>
+                            <a class="nav-link" href="{{ url('/explorar') }}">explorar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">notícias</a>
+                            <a class="nav-link" href="{{ url('/noticias') }}">notícias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">recursos</a>
+                            <a class="nav-link" href="{{ url('/soon') }}">recursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">oportunidades</a>
+                            <a class="nav-link" href="{{ url('/soon') }}">oportunidades</a>
                         </li>
                     </ul>
                 </div>

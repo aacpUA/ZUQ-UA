@@ -57,16 +57,7 @@ class ExploreAPIController extends Controller
         $data = $request->all();
         $result = null;
 
-
-        $validator = IlluminateValidator::make($data, [
-            'area' => 'string',
-            'type' => 'string',
-            'cycle' => 'string',
-            'region' => 'string',
-            'institution' => 'string'
-            ]);
-
-        $area = !empty ( $data['area'] ) ? [$data['area']] : Area::select('id')->get();
+        $area = !empty ( $data['area'] ) ? $data['area'] : Area::select('id')->get();
         /* $type = $data['type'];
         $cycle = $data['cycle'];
         $region = $data['region']; */

@@ -291,11 +291,12 @@ background-color:#c4c4c4;
 
 
 /* Filtros */
-.filters-title {
-    text-align: left;
-    font-size: xx-large;
-    margin: 25px 0 0 0;
-}
+    .filters-title {
+        text-align: left;
+        font-size: xx-large;
+        margin: 25px 0 0 0;
+    }
+
 
 
 /*filtro selecionado*/
@@ -330,25 +331,43 @@ background-color:#c4c4c4;
 }
 
 /*  Barra pesquisa */
+@media (max-width: 992px) {
+    .hide-sm-custom {
+        display:none;
+    }
+}
+@media (max-width: 992px) {
+    .show-sm-custom {
+        display:inherit;
+    }
+}
+
+.botao-filtros {
+    background-color: rgb(66, 176, 183);
+    color: white;
+    max-width: 75%;
+}
 
 .filters-sidebar {
     padding: 20px 15px;
 
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
+    min-height:100vh;
 
-    background-color: rgba(224, 224, 224, 0.5);
+    background-color: rgba(255, 255, 255, 0.637);
+
+    border-right: 2px solid rgb(66, 176, 183);
 }
 
 .filters-search-bar {
     background-color: #e4e4e4;
     padding: 5px;
-    border-radius: 7%;
 }
 
 .filters-search-bar > input {
     width: 85% !important;
-    margin-right: 1vw
+    margin-right: 1vw;
+    background-color: inherit;
+    border:none;
 }
 .filters-search-bar > i {
     cursor: pointer;
@@ -368,16 +387,24 @@ background-color:#c4c4c4;
     width: 90%;
     margin-bottom: 10px;
     overflow:visible !important;
-    border-radius: 5% !important;
+    /* border-radius: 5% !important;
     border-bottom-right-radius: 5% !important;
-    border-bottom-left-radius: 5% !important;
-    /* box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.5); */
+    border-bottom-left-radius: 5% !important; */
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     cursor: pointer;
     transition: transform 0.5s;
+    border:none;
+
+}
+.category[type="button"] {
+    outline: none;
 }
 
 .category:hover {
     transform: scale(101%, 101%);
+}
+.category:not(.collapsed) {
+    border-bottom: 1px solid rgba(66, 176, 183, 0.5);
 }
 
 
@@ -386,20 +413,17 @@ background-color:#c4c4c4;
     margin-bottom: 0;
     margin-left: 10px;
     font-size: 16px;
-    text-transform: uppercase;
 }
 .category > i {
     font-size: 28px;
-    margin-right: -25px;
-    background-color: red;
-    color: white;
+    color: #42b0b7;
     border-radius: 50%;
 
     transition: rotate 0.5s;
 }
 
 .category:not(.collapsed) > i{
-    transform: rotate(0.5turn);
+    transform: rotate(0.25turn);
 }
 
 .category-menu {
@@ -407,10 +431,8 @@ background-color:#c4c4c4;
     width: 90%;
     margin-top:-10px;
     margin-bottom: 10px;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
 
-    box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.5); */
 }
 
 .category-menu-list-item {
@@ -421,6 +443,86 @@ background-color:#c4c4c4;
 .category-menu-list-item.active {
     background-color: white !important;
     color: red !important;
+}
+
+.filters-categories-check{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    background-color: rgba(63, 63, 63, 0.05);
+
+    cursor: pointer;
+}
+
+.filters-categories-check label {
+    z-index: 9999;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 16px;
+
+    width: 75%;
+}
+/*tantos hacks lol */
+.filters-categories-check input {
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    margin-top: -1vh;
+    margin-left: -10px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.filters-check-selection {
+    z-index: 9999;
+    display: inline-block;
+    font-size: 20px;
+    color: rgba(66, 176, 183, 1);
+}
+
+.filters-categories-check .background  {
+    position: absolute;
+    background-color: rgba(66, 176, 183, 0.25);
+    width: 100%;
+    height: 100px;
+    margin-top: -1vh;
+    margin-left: -10px;
+    display: none;
+}
+
+.filters-categories-check input:checked ~ .background {
+    display: block;
+}
+.filters-categories-check input:checked ~ .filters-check-selection {
+    color: black;
+}
+
+.filters-button {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.filters-button button{
+    display: inline-block;
+    width: 50px;
+    background-color:#42b0b7;
+    padding: 4px 0px 5px 12px;
+    color:white;
+    border-radius: 100%;
+    height: 50px;
+    font-size: 24px;
 }
 
  /* Menus Gerais */
@@ -467,7 +569,9 @@ background-color:#c4c4c4;
 
 .card-explorar {
     height:100%;
-    padding: 25% 10px
+    padding: 25% 10px;
+    margin-bottom: 20px;
+    max-height: 250px
 
 }
 
